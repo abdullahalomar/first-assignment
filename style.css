@@ -1,0 +1,52 @@
+body {
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-size: 49px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.font-color {
+    color: tomato;
+}
+
+section {
+    display: flex;
+    padding-left: 10%;
+}
+
+.heading {
+    margin-bottom: 10px;
+}
+
+.heading img {
+    width: 75%;
+    padding-left: 30%;
+}
+
+.first-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(108, 160, 173), rgb(40, 103, 139));
+    padding: 12px 39px;
+    border-radius: 5px;
+    color: white;
+}
+
+.ver-line {
+    border-left: 6px solid rgb(216, 129, 204);
+    left: 30%;
+    height: 110px;
+    border-radius: 5px;
+}
+
+.missions {
+    display: flex;
+}
