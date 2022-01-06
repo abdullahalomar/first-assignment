@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     margin-top: 25px;
     font-family: 'Poppins', sans-serif;
@@ -42,6 +47,10 @@ h1 {
     color: white;
 }
 
+.first-button:hover {
+    background-image: linear-gradient(rgb(166, 197, 243), rgb(99, 163, 236));
+}
+
 .ver-line {
     border-left: 6px solid rgb(216, 129, 204);
     left: 30%;
@@ -58,17 +67,14 @@ h1 {
 }
 
 #box-color-1 {
-    /*background-color: cadetblue;*/
     background-image: linear-gradient(rgb(192, 215, 226), rgb(128, 128, 228));
 }
 
 #box-color-2 {
-    /*background-color: rgb(24, 163, 163);*/
     background-image: linear-gradient(rgb(235, 194, 194), rgb(214, 133, 119));
 }
 
 #box-color-3 {
-    /*background-color: darkgrey;*/
     background-image: linear-gradient(rgb(226, 187, 226), rgb(170, 93, 166));
 }
 
@@ -98,6 +104,7 @@ h1 {
 
 .heading-3 {
     margin-right: 9%;
+    margin-bottom: 5%;
 }
 
 .heading-3 img {
@@ -105,9 +112,16 @@ h1 {
     margin-left: 13%;
 }
 
+.heading-4 img {
+    width: 290px;
+    padding-right: 130px;
+}
+
+.section-box {
+    margin-left: 7%;
+}
+
 footer {
-    height: 60%;
-    width: 100%;
     background-color: rgb(44, 48, 53);
 }
 
