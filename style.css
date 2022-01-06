@@ -18,13 +18,14 @@ p {
     color: tomato;
 }
 
-section {
+.content-flex {
     display: flex;
     padding-left: 10%;
+    margin-bottom: 5%;
 }
 
 .heading {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .heading img {
@@ -47,6 +48,44 @@ section {
     border-radius: 5px;
 }
 
-.missions {
-    display: flex;
+.box {
+    height: 340px;
+    width: 400px;
+    border-radius: 20px;
+    padding-left: 2%;
+    margin-left: 3%;
+}
+
+#box-color-1 {
+    /*background-color: cadetblue;*/
+    background-image: linear-gradient(rgb(192, 215, 226), rgb(128, 128, 228));
+}
+
+#box-color-2 {
+    /*background-color: rgb(24, 163, 163);*/
+    background-image: linear-gradient(rgb(235, 194, 194), rgb(214, 133, 119));
+}
+
+#box-color-3 {
+    /*background-color: darkgrey;*/
+    background-image: linear-gradient(rgb(226, 187, 226), rgb(170, 93, 166));
+}
+
+.box img {
+    width: 150px;
+    padding-top: 5%;
+}
+
+.box-position {
+    margin-right: 10%;
+    margin-left: -4%;
+}
+
+.heading-2 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.mission-about {
+    font-size: 16px;
 }
